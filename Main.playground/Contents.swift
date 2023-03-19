@@ -80,9 +80,94 @@ import Foundation
 //spinWords(in: "This sentence is a sentence")
 
 
+//func orderWeight(_ s: String) -> String {
+   
+//let input = "56 65 74 100 99 68 86 180 90"
+//
+//let intInput = input
+//    .split(separator: " ")
+//    .map {$0.split(separator: "")}
+//   // .reduce(0, {Int(String($0) )})
+//
+//
+//print(intInput)
+
+
+//func nbDig(_ n: Int, _ d: Int) -> Int {
+//
+//let n = 25
+//let d = 1
+//
+//
+//let dString = "\(d)"
+//
+//var res = (0...n)
+//
+//    .map {String($0 * $0)}
+//    .joined()
+//    .filter {"\($0)" == dString}
+//    .count
+
+//var result = res.filter {$0 == true}.count
+
+//print(res)
+//print(result)
+    
+    //var numbers = [Int] ()
     
     
+    
+    //for i in 0...25 {
+    //   numbers.append(i * i)
+    //}
+    
+    //print(numbers)
 
 
 
+//func subtractSum(_ n: Int) -> String {
+//
+//var n = 99999
+//
+//let nStr = (Array(String(n)))
+//
+//
+//var sum = 0
+//
+//
+//    for i in nStr {
+//        sum += Int(String(i))!
+//       // n -= sum
+//
+//    }
+//
+//
+//print(sum)
 
+//
+// func nthEven(_ n: Int) -> Int {
+//
+//   ( n * 2 ) - 2
+//
+//}
+//nthEven(1298734)
+
+
+//func digitalRoot(of number: Int) -> Int {
+  
+let number = 942
+let str = String(number)
+
+
+
+var res = str.map {$0.wholeNumberValue!}.reduce(0, +)
+
+
+
+print(res)
+    
+
+print("dd")
+
+
+//Sum of Digits / Digital Root
